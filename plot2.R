@@ -1,7 +1,9 @@
 source("loadData.R")
 
+# function to be called from command line to run plot
 plot2 <- function(){
   
+  #load data using function written in "loadData.R"
   data <- loadData()
   
   png("plot2.png", width=400, height=400)
